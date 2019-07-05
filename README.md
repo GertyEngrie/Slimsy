@@ -1,4 +1,4 @@
-Slimsy v2
+custom Slimsy v2
 ============
 **Effortless Responsive & Lazy Images with LazySizes and Umbraco**
 
