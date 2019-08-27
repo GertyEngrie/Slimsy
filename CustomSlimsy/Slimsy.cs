@@ -112,7 +112,7 @@ namespace CustomSlimsy
             {
                 if (imageSizes.ContainsKey(w))
                 {
-                    heightRatio = (decimal) imageSizes[w][0] / imageSizes[w][1];
+                    heightRatio = (decimal) imageSizes[w][1] / imageSizes[w][0];
                 }
                 var h = (int)Math.Round(w * heightRatio);
                 var cropString = urlHelper.GetCropUrl(publishedContent, w, h, "umbracoFile", quality: q, preferFocalPoint: true,
